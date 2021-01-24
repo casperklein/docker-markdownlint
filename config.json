@@ -1,0 +1,6 @@
+{
+  "user": "casperklein",
+  "name": "markdownlint",
+  "image": "casperklein/markdownlint",
+  "version": "0.1"
+}
