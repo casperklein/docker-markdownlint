@@ -12,4 +12,7 @@ RUN	apt-get update \
 # disable MD013
 &&	sed -i '/md013/d' /usr/local/lib/node_modules/markdownlint-cli2/node_modules/markdownlint/lib/rules.js
 
+ARG	VERSION
+ENV	Version=$VERSION
+
 CMD	["markdownlint-cli2"]
